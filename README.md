@@ -29,19 +29,19 @@ Asking the user to input the number and because everything that comes back from 
 For Multiplication this is how to output:
 
     double mult = num1 * num2 ;
-    Console.WriteLine("Your answer for multiplication is :" + mult );
+    Console.WriteLine("Your answer is :" + mult );
     
 For Addition this is how to output :
     
-    Console.WriteLine("Added:" +(num1 + num2));
+    Console.WriteLine("Your answer is : " +(num1 + num2));
     
 For Division this is how to output :
 
-    Console.WriteLine("Division: "+(num1/num2));
+    Console.WriteLine("Your answer is : "+(num1/num2));
 
 For Subtraction this is how to output :
 
-    Console.WriteLine("Minus:" ("Minus:" + (num1-num2));
+    Console.WriteLine("Your answer is " + (num1-num2));
 
 This is to calculate for strictly specific operators.
 
@@ -61,7 +61,7 @@ By asking the user to enter any kind of operators between +,-,/,* . Then by what
     if ( op == "*" ) {
     
     double mult = num1 * num2 ;
-    Console.WriteLine("Your answer is "+ mult);
+    Console.WriteLine("Multiplication : "+ mult);
     
     }
     elseif ( op == "-" ) {
