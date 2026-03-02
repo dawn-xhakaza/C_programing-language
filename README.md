@@ -41,7 +41,7 @@ For Division this is how to output :
 
 For Subtraction this is how to output :
 
-    Console.WriteLine("Your answer is " + (num1-num2));
+    Console.WriteLine("Your answer is : " + (num1-num2));
 
 This is to calculate for strictly specific operators.
 
